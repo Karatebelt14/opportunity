@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Opportunity</title>
+    <link rel="icon" href="../assets/common/logo.png" type="image/x.icon">
+    <link rel="stylesheet" href="../css/page_6_contact.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "CHAT WITH OPPORTUNITY CHATBOT",
+      "botConversationDescription": "Your Digital Companion for Every Conversation",
+      "botId": "a6d306d0-a797-438c-b156-be1e53c3eae3",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "a6d306d0-a797-438c-b156-be1e53c3eae3",
+      "webhookId": "e3dbbd8c-5988-48a2-88d2-64bb1062898a",
+      "lazySocket": true,
+      "themeName": "prism",
+      "frontendVersion": "v1",
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+    <div class="container">
+
+        <div class="header">
+            <a href="/PROJECT_FINALS/MVP/html/page_2_home.html">
+                <img src="../assets/common/logo.png"></a>
+        </div>
+
+
+
+        <div class="navigation">
+            <a href="../html/page_2_home.html" >Home</a>
+            <a href="../html/page_3_course.html">Courses</a>
+            <a href="../html/page_4_university.html">Universities</a>
+            <a href="../html/page_5_about.html">About Us</a>
+            <a href="../html/page_6_contact.html" class="active">Contacts</a>
+        </div>
+        <div class="search-box">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Search.." autocomplete="off">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="result-box">
+                
+            </div>
+        </div>
+        <!---content-->
+        <div class="picture">
+            <div class="picture_text">
+                <div class="picture_text2">
+                <h1>Get in touch</h1>
+                <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
+                </div>
+            </div>
+        </div>
+
+        <!---2box-->
+        <div class="box1">
+            <div class="centerr">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Talk to our Team</h3>
+            <br>
+            <p>For further inquiries, feel free to contact our team using the provided contact number.</p>
+            <p>Click contact number to copy...</p>
+            <br>
+            <p id="copyText" onclick="copyNumber()">+639123456789</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="centerr">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Our Location</h3>
+                <br>
+                <p>105 Samson Rd, Caloocan, Metro Manila</p>
+                <br>
+                <p id="copyText" onclick="window.location.href='https://www.google.com/maps/place/University+of+the+East+Caloocan/@14.659206,120.9747616,17z/data=!4m10!1m2!2m1!1sue+caloocan!3m6!1s0x3397b433cd70f587:0xc23c5e0b2614f4ab!8m2!3d14.6589818!4d120.9768647!15sCgt1ZSBjYWxvb2NhbpIBEnByaXZhdGVfdW5pdmVyc2l0eeABAA!16s%2Fm%2F025xd4_?entry=ttu'">See Location</p>
+                </div>
+        </div>
+
+        <!---bot-->
+        <div class="robot">
+            <div class="centerr">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Chat with AI</h3>
+                <br>
+                <p>Elevate your inquiries by engaging our AI chat.
+                    Unravel answers seamlessly through conversation</p>
+                <br>
+                <div class="ai">
+                    <input type="text" placeholder="Send Message...">
+                    <button >Send</button>
+                    </div>
+                </div>
+        </div>
+        <!---email-->
+        <div class="email">
+            <div class="centerr">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email Us</h3>
+                <br>
+                <p>Reach out to us by simply dropping a message in our inbox.</p>
+                <br>
+                <div class="ai">
+                    <input type="text" placeholder="Send Message...">
+                    <button >Send</button>
+                    </div>
+                </div>
+        </div>
+        <!----footer-->
+        <div class="footer">
+            <div class="footer_1">
+                <div class="footer_holder">
+                    <div class="footer_logo">
+                        <img src="../assets/common/logo.png">
+                        <h6>Opportunity company</h6>
+                    </div>
+                    <div class="basta">
+                    <div class="footer_nav">
+                        <a href="../html/page_2_home.html#home" ><p>Home</p></a>
+                        <a href="../html/page_3_course.html#courses"><p>Courses</p></a>
+                        <a href="../html/page_4_university.html#universities"><p>Universities</p></a>
+                        <a href="../html/page_5_about.html#about"><p>About Us</p></a>
+                        <a href="../html/page_6_contact.html"><p>Contacts</p></a>
+                    </div>
+                    <div class="bot">
+                        <h3>Let Us Help You</h3>
+                        <p>Elevate your inquiries by engaging our AI chat. <br>Unravel answers seamlessly through conversation.</p>
+                        <div class="ai">
+                        <input type="text" placeholder="Send Message...">
+                        <button >Send</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="soc_med">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="credit">
+                    <p>©Opportunity 2024, All rights reserved.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function copyNumber() {
+        var copyText = document.getElementById("copyText");
+        var tempInput = document.createElement("input");
+        tempInput.value = copyText.textContent;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        alert("Number copied: " + copyText.textContent);
+        }
+    </script>
+    <script src="../html/autocomplete.js"></script>
+</body>
+</html>
